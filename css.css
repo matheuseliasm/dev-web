@@ -2,41 +2,30 @@
     background-color: var(--cor-fundo);
     --cor-fundo: #ff9084;
 }
-.esquerda {
-    border: 2px solid black;
+
+.conteudo-total{
     display: flex;
     justify-content: center;
-    max-width: 20%;
-    text-align: center;
-    margin: auto 1% auto auto;
-    
-}
-.direita{
-    border: 2px solid black;
-    display: flex;
-    justify-content: center;
-    max-width: 20%;
-    text-align: center;
-    margin: auto auto auto 1%;
-    
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: auto;
 }
 .conteudo{
-    display: flex;
+    padding: 5px;
+    border: 2px solid black;
+    width: 45%;
+    text-align: center;
+    margin: 1%;
 }
 a {
     text-decoration: none ;
     color: black;
 }
-/*id*/
-#container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#a{
+#titulo{
     color: #e0205a;
     font-size: 60px;
     text-align: center;
     margin-right: 80px;
     margin-left: 100px;
-} 
+}
