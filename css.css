@@ -13,15 +13,23 @@
 }
 .conteudo {
   padding: 5px;
-  border: 2px solid rgb(0, 0, 0);
+  border: 3px solid rgb(0, 0, 0);
   width: 45%;
   text-align: center;
   margin: 1%;
-  font-size: 40px;
+  font-size: 42px;
 }
 a {
   text-decoration: none;
   color: rgb(0, 0, 0);
+}
+#gif1{
+    width: 100%;
+    font-size: 30px;
+    
+}
+ #image {
+    text-align: center;
 }
 
 #titulo {
@@ -34,10 +42,10 @@ a {
 #h {
   text-align: center;
   font-size: 40px;
-  border: 2px solid rgb(0, 0, 0);
+    
 }
 #p {
   text-align: center;
-  border: 2px;
 }
+
 
