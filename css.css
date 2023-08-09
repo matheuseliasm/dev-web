@@ -1,6 +1,6 @@
 :root {
   background-color: var(--cor-fundo);
-  --cor-fundo: #ff9084;
+  --cor-fundo: #9e9a9a;
 }
 
 .conteudo-total {
@@ -8,7 +8,7 @@
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 60%;
+  width: 50%;
   margin: auto;
 }
 .conteudo {
@@ -17,27 +17,24 @@
   width: 45%;
   text-align: center;
   margin: 1%;
-  font-size: 42px;
+  font-size: 30px;
+  
 }
 a {
   text-decoration: none;
   color: rgb(0, 0, 0);
-}
-#gif1{
-    width: 100%;
-    font-size: 30px;
-    
-}
- #image {
-    text-align: center;
+}     
+#image  {
+  text-align: center;
+  width: 100%;
 }
 
 #titulo {
-  color: #ff3e78;
-  font-size: 60px;
+  color: #ffffff;
+  font-size: 50px;
   text-align: center;
   margin-right: 100px;
-  margin-left: 100px;
+  margin-left: 100 px;
 }
 #h {
   text-align: center;
