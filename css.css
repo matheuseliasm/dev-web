@@ -20,13 +20,26 @@
   font-size: 30px;
   
 }
+
 a {
   text-decoration: none;
   color: rgb(0, 0, 0);
 }     
 #image  {
+  
   text-align: center;
-  width: 100%;  
+  grid-template-columns: 1 fr;
+  justify-content: end;
+}
+.image2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 2fr;
+ 
+}
+#imagetext1 {
+  display: grid;
+  grid-template-columns: 4fr 3fr 3fr 3fr;
+ 
 
 }
 
