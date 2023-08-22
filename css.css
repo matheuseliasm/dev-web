@@ -32,20 +32,20 @@ a {
   justify-content: end;
 }
 .image2 {
+  
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr 2fr;
- 
+  grid-template-columns: 2fr 1fr 1fr 1%;
+  text-align: justify;
 }
+
 #imagetext1 {
   display: grid;
-  grid-template-columns: 4fr 3fr 3fr 3fr;
- 
-
+  grid-template-columns: 4fr 2fr 2fr 2fr
+  
 }
-
 #titulo {
   color: #ffffff;
-  font-size: 50px;
+  font-size: 30px;
   text-align: center;
   margin-right: 100px;
   margin-left: 100 px;
@@ -58,8 +58,9 @@ a {
 }
 #p {
   text-align: center;
-  font-size: 19px;
-  text-shadow: aqua;
+  font-size: 20px;
+ 
+
 }
 
 
